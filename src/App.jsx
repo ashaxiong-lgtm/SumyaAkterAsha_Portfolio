@@ -1,10 +1,13 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 import "./index.css";
 
 function App() {
   return (
-    <div>
-      <h1>My Portfolio</h1>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+    </>
   );
 }
 
