@@ -1,5 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import About from "./components/About";
+import Skills from "./components/Skills";
 import "./index.css";
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <About />
+      <Skills />
     </>
   );
 }

@@ -9,7 +9,7 @@ function Hero() {
         </p>
 
         <h1>
-          AS<span>HA</span>
+          <span>ASHA</span>
         </h1>
 
         <h2>

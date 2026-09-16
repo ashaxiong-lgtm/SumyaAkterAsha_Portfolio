@@ -9,3 +9,178 @@ body {
   background: #f7f7f7;
   color: #111;
 }
+/* =========================
+   GENERAL SECTIONS
+========================= */
+
+.section {
+  padding: 120px 0;
+}
+
+.section-alt {
+  background: #f0f0ec;
+}
+
+.section-heading {
+  margin-bottom: 60px;
+}
+
+.section-heading p {
+  color: var(--accent);
+
+  font-size: 0.8rem;
+  font-weight: 700;
+
+  letter-spacing: 2px;
+
+  margin-bottom: 10px;
+}
+
+.section-heading h2 {
+  font-size: clamp(2.4rem, 5vw, 4rem);
+
+  line-height: 1;
+
+  letter-spacing: -3px;
+}
+
+
+/* =========================
+   ABOUT
+========================= */
+
+.about-grid {
+  display: grid;
+
+  grid-template-columns: 1.4fr 1fr;
+
+  gap: 90px;
+}
+
+.about-text {
+  display: grid;
+
+  gap: 22px;
+
+  color: var(--text-soft);
+
+  font-size: 1.08rem;
+}
+
+.about-info {
+  border-top: 1px solid var(--border);
+}
+
+.info-item {
+  display: flex;
+
+  justify-content: space-between;
+
+  gap: 30px;
+
+  padding: 18px 0;
+
+  border-bottom: 1px solid var(--border);
+}
+
+.info-item span {
+  color: var(--text-soft);
+}
+
+
+/* =========================
+   SKILLS
+========================= */
+
+.skills-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 16px;
+}
+
+.skill-card {
+  min-height: 230px;
+
+  padding: 28px;
+
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+
+  border-radius: 18px;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+}
+
+.skill-card span {
+  color: var(--text-soft);
+
+  font-size: 0.75rem;
+}
+
+.skill-card h3 {
+  margin-top: 42px;
+  margin-bottom: 10px;
+
+  font-size: 1.4rem;
+}
+
+.skill-card p {
+  color: var(--text-soft);
+
+  font-size: 0.92rem;
+}
+
+
+/* =========================
+   ABOUT + SKILLS TABLET
+========================= */
+
+@media (max-width: 900px) {
+
+  .about-grid {
+    grid-template-columns: 1fr;
+
+    gap: 50px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+/* =========================
+   ABOUT + SKILLS MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+  .section {
+    padding: 85px 0;
+  }
+
+  .section-heading {
+    margin-bottom: 42px;
+  }
+
+  .section-heading h2 {
+    letter-spacing: -2px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
