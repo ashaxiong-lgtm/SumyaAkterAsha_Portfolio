@@ -13,7 +13,7 @@ function Hero() {
         </h1>
 
         <h2>
-          CSE UNDERGRADUATE & ASPIRING WEB DEVOLOPER
+          CSE UNDERGRADUATE & ASPIRING WEB DEVELOPER
         </h2>
 
         <p className="hero-description">
@@ -41,7 +41,7 @@ function Hero() {
 
         <div className="social-links">
           <a
-            href="https://github.com/YOURUSERNAME"
+            href="https://github.com/ashaxiong-lgtm"
             target="_blank"
             rel="noreferrer"
           >
@@ -49,7 +49,7 @@ function Hero() {
           </a>
 
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/sumya-akter-asha-054081322/"
             target="_blank"
             rel="noreferrer"
           >

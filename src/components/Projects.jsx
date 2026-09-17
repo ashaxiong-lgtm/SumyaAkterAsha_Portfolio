@@ -5,8 +5,7 @@ const projects = [
     description:
       "A responsive portfolio website built with React and modern CSS techniques to showcase my skills and projects.",
     technologies: ["React", "CSS", "JavaScript"],
-    github: "#",
-    live: "#"
+    github: "https://github.com/ashaxiong-lgtm/SumyaAkterAsha_Portfolio"
   },
 
   {
@@ -14,9 +13,7 @@ const projects = [
     type: "Database Project",
     description:
       "A database-driven system designed to manage and track expenses efficiently using structured data management.",
-    technologies: ["SQL", "Database"],
-    github: "#",
-    live: "#"
+    technologies: ["SQL", "Database"]
   },
 
   {
@@ -25,8 +22,7 @@ const projects = [
     description:
       "A Python-based system developed to improve and process data using programming techniques.",
     technologies: ["Python"],
-    github: "#",
-    live: "#"
+    github: "https://github.com/ashaxiong-lgtm/IMAGE_INHANCEMENT"
   },
 
   {
@@ -35,8 +31,8 @@ const projects = [
     description:
       "A calculator application developed using assembly language concepts and low-level programming techniques.",
     technologies: ["Assembly 8086"],
-    github: "#",
-    live: "#"
+    github: "https://github.com/ashaxiong-lgtm/AssemblyCode"
+   
   },
 
   {
@@ -45,8 +41,8 @@ const projects = [
     description:
       "A stack management application developed using Express.js for handling system operations.",
     technologies: ["HTML","CSS","Javascript","Express.js", "Node.js","MySQL","Chart.js"],
-    github: "#",
-    live: "#"
+    github: "https://github.com/ashaxiong-lgtm/SmartSpend"
+
   }
 ];
 
@@ -132,16 +128,6 @@ function Projects() {
                     rel="noreferrer"
                   >
                     GitHub ↗
-                  </a>
-
-
-
-                  <a
-                    href={project.live}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Live Demo ↗
                   </a>
 
 
