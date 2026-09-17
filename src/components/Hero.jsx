@@ -1,3 +1,4 @@
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 function Hero() {
   return (
     <section className="hero" id="home">
@@ -39,23 +40,28 @@ function Hero() {
 
         </div>
 
-        <div className="social-links">
-          <a
-            href="https://github.com/ashaxiong-lgtm"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub ↗
-          </a>
+     <div className="hero-links">
 
-          <a
-            href="https://www.linkedin.com/in/sumya-akter-asha-054081322/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            LinkedIn ↗
-          </a>
-        </div>
+  <a 
+    href="https://github.com/ashaxiong-lgtm"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="GitHub"
+  >
+    <FaGithub />
+  </a>
+
+
+  <a 
+    href="https://www.linkedin.com/in/sumya-akter-asha-054081322"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="LinkedIn"
+  >
+    <FaLinkedinIn />
+  </a>
+
+</div>
 
       </div>
 
