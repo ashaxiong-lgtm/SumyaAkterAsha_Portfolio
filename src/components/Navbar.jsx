@@ -8,7 +8,7 @@ function Navbar() {
       <nav className="navbar container">
 
         <a href="#home" className="logo">
-          Sumya Akter Asha <span>.</span>
+          Sumya Akter Asha .
         </a>
 
         <div className={`nav-links ${menuOpen ? "active" : ""}`}>

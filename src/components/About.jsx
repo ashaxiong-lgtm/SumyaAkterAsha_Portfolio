@@ -5,16 +5,15 @@ function About() {
 
         <div className="section-heading">
           <p>01 — ABOUT</p>
-          <h2>A little Personal Overview.</h2>
+          <h2>A Little Personal Overview.</h2>
         </div>
 
         <div className="about-grid">
 
           <div className="about-text">
             <p>
-              I'm a Computer Science and Engineering student with
-              a strong interest in web development and software
-              engineering.
+              I'm a Computer Science and Engineering student passionate
+about web development and building modern software solutions.
             </p>
 
             <p>
