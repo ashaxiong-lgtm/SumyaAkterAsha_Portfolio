@@ -41,7 +41,7 @@ const projects = [
     description:
       "A stack management application developed using Express.js for handling system operations.",
     technologies: ["HTML","CSS","Javascript","Express.js", "Node.js","MySQL","Chart.js"],
-    github: "https://github.com/ashaxiong-lgtm/SmartSpend"
+    github: "https://github.com/ashaxiong-lgtm/SmartSpend.git"
 
   }
 ];
